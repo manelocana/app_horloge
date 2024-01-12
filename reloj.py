@@ -7,9 +7,9 @@ root.title = "reloj"
 root.geometry("400x200")
 
 
-
 hora =tk.Label(root, text="hora")
 hora.pack()
+
 
 def reloj():
  
