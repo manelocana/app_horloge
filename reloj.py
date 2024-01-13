@@ -12,7 +12,6 @@ hora.config(bg="yellow", font=("Arial", 40))
 hora.pack()
 
 
-
 def reloj():
  
     hora.config(text=time.strftime("%H:%M:%S"))
