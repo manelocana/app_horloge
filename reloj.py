@@ -1,4 +1,4 @@
-import time, datetime
+import time
 import tkinter as tk
 
 
@@ -16,8 +16,6 @@ def reloj():
  
     hora.config(text=time.strftime("%H:%M:%S"))
     hora.after(1000, reloj)
-
-    
 
 
 reloj()
