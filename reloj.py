@@ -21,5 +21,4 @@ def reloj():
 reloj()
 
 
-
 root.mainloop()
